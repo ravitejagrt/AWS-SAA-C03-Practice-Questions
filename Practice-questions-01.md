@@ -10,6 +10,7 @@ Which solution meets these requirements
 
    <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: Turn on S3 Transfer Acceleration on the destination S3 bucket. Use multipart uploads to directly upload site data to the destination S3 bucket. 
+      
       Explanation: 
       General line: Collect huge amount of the files across multiple continents
       Conditions: High speed Internet connectivity
