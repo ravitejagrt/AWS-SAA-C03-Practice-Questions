@@ -7,10 +7,10 @@ layout: exam
 1. A company collects data for temperature, humidity, and atmospheric pressure in cities across multiple continents. The average volume of data that the company collects from each site daily is 500 GB. Each site has a high-speed Internet connection.
 The company wants to aggregate the data from all these global sites as quickly as possible in a single Amazon S3 bucket. The solution must minimize operational complexity.
 Which solution meets these requirements
-   <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: Turn on S3 Transfer Acceleration on the destination S3 bucket. Use multipart uploads to directly upload site data to the destination S3 bucket. 
+   <details markdown=1><summary markdown='span'>**Answer**</summary>
+      **Correct answer:** Turn on S3 Transfer Acceleration on the destination S3 bucket. Use multipart uploads to directly upload site data to the destination S3 bucket. 
       
-      Explanation: 
+      __Explanation:__
       General line: Collect huge amount of the files across multiple continents
       Conditions: High speed Internet connectivity
       Task: aggregate the data from all in a single S3 bucket
